@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'http://localhost:8080/v1/tasks';
+  const apiRoot = 'https://task-prod-kodilla-tasks-9snr8l.mo4.mogenius.io/v1/tasks';
   const trelloApiRoot = 'http://localhost:8080/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
